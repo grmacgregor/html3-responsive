@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 15px;
+    max-width: 960px;
+}
+
+nav {
+    margin: 0;
+    overflow: hidden;
+    background: #333;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+
+p {
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
